@@ -1,0 +1,95 @@
+/* estilos globais */
+body {
+    font-family: 'Arial', Times, serif, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background-color: #393741;
+    color: #9f9f9f;
+}
+
+/* estilos do cabeçalho */
+header {
+    font-size: 25px;
+    background-color: #302e80;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+
+}
+/* estilo para tirar fundo do texto cinza*/
+div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #121111;
+}
+/*estilos do menu de navegacao*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2a2727;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display:block ;
+    color: white;
+    text-align: center;
+    padding: 10px 183px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #1b1b1c;
+  }
+  /*mostra a página que está ativa no menu de navegação*/
+  /*classe*/
+.active {
+    background-color: #029e67;
+  }
+
+
+/* Estilos da seção principal */
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #121111;
+    box-shadow: 0 0 10px rgb(29, 29, 29);
+}
+
+/* estilos do formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
